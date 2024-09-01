@@ -1,0 +1,187 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;  
+}
+
+
+body {
+ background-color: whitesmoke;
+} 
+
+
+a {
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: rgb(230, 203, 50);
+}
+
+header {
+    display: flex;
+    height: 55px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav a {
+    font-weight: 600;
+    padding-right: 30px;
+}
+
+nav a:hover{
+    color: rgb(39, 105, 94);
+}
+
+
+h1 {
+    color: rgb(59, 146, 132) ;
+}
+
+h1.centrar {
+    text-align: center;
+}
+
+
+h2 {
+    color: rgb(45, 88, 81);
+}
+
+h2.subrayado{
+    text-decoration: underline;
+}
+
+p {
+    color: rgb(55, 56, 56);
+    font-size: 20px;
+}
+
+p.sangria {
+    text-indent: 20px;
+}
+
+p.texto {
+    display: inline-block;
+    position: relative;
+}
+
+img {
+    width: 17%;
+    border-radius: 10pt;
+    float: left;
+    margin-right: 50px;
+    margin-left: 400px;
+  
+}
+
+.centrar{
+    text-align: center;
+}
+
+.margen {
+    margin-top: 100px;
+}
+
+.marco {
+    border: 3px solid rgb(39, 105, 94); 
+    padding: 20px; 
+    width: 500px; 
+}
+
+.redes {
+    min-width: 700px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.boton {
+    padding:5px 8px;
+    
+    color: rgb(55, 56, 56);
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+/*TABLET*/
+@media screen and (max-width: 768px) {
+    
+    header {
+        display: flex;
+        height: 55px;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    }
+
+    a {
+        font-size: 80%;
+    }
+
+    p {
+        font-size: 100%;
+    }
+    
+    h1 {
+      font-size: 100%;
+    }
+
+    .centrar {
+        font-size: 100%;
+    }
+
+    h2 {
+      font-size: 100%;  
+    }
+  
+    .marco {
+        text-align: justify;
+        border: 3px solid rgb(39, 105, 94); 
+        padding: 20px; 
+        width: 50%; 
+    } 
+}
+
+/*PANTALLA PEQUEÑA*/
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    header {
+        display: flex;
+        height: 55px;
+        justify-content: space-around ;
+        align-items: center;
+        padding: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    }
+
+    a {
+        font-size: 50%;
+    }
+
+    p {
+        font-size: 80%;
+    }
+    
+    h1 {
+      font-size: 100%;
+    }
+
+    .centrar {
+        font-size: 100%;
+    }
+
+    h2 {
+      font-size: 100%;  
+    }
+  
+    .marco {
+        text-align: justify;
+        border: 3px solid rgb(39, 105, 94); 
+        padding: 20px; 
+        width: 50%; 
+    } 
+}
+
+

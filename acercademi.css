@@ -1,0 +1,154 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;  
+}
+
+
+body {
+ background-color: whitesmoke;
+} 
+
+
+a {
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: rgb(230, 203, 50);
+}
+
+header {
+    display: flex;
+    height: 55px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav a {
+    font-weight: 600;
+    padding-right: 30px;
+}
+
+nav a:hover{
+    color: rgb(39, 105, 94);
+}
+
+img {
+    width: 70%;
+    margin-left: 5%;
+}
+
+h2 {
+    color: rgb(45, 88, 81);
+    text-align: center;
+}
+
+h2.subrayado{
+    text-decoration: underline;
+}
+
+p {
+    color: rgb(55, 56, 56);
+    font-size: 20px;
+}
+
+p.sangria {
+    text-indent: 20px;
+}
+
+table {
+    overflow-x: auto; 
+    margin-left: 300px;
+}
+
+td {
+    text-align: justify;
+}
+
+.boton {
+    padding:5px 8px;    
+    padding-top: 5%;
+    color: rgb(59, 168, 168, 0.658);
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+/*TABLET*/
+@media screen and (max-width: 768px) { 
+    header {
+        display: flex;
+        height: 55px;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    }
+
+    a {
+        font-size: 80%;
+    }
+
+    .container {
+       padding-top: -80%;
+    }
+
+    p {
+        font-size: 90%;
+    }
+ 
+    h2 {
+      font-size: 100%;  
+    }
+  
+    table {
+        margin-left: 100px;
+        width: 100%; 
+        border-collapse: collapse;
+    }
+
+    .boton {
+        padding-top: 10%;
+    }
+}
+
+/*PANTALLA PEQUEÑA*/
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    header {
+        display: flex;
+        height: 55px;
+        justify-content: space-around ;
+        align-items: center;
+        padding: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    }
+
+    a {
+        font-size: 50%;
+    }
+
+    .container {
+       padding-top: -80%;
+    }
+
+    p {
+        font-size: 90%;
+    }
+ 
+    h2 {
+      font-size: 80%;
+      text-align: center;
+    }
+
+   #imagen  {
+    display: none;
+   }
+
+   table {  
+    margin: 0 auto;  
+    width: 80%; 
+    border-collapse: collapse;
+   }   
+}
